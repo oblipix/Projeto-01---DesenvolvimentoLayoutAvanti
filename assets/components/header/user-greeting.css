@@ -1,0 +1,100 @@
+.greeting {
+    display: flex;
+    position: absolute;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: Nunito, sans-serif;
+    color: #000;
+    right: 150px;
+    top: 76px;
+  }
+  
+  .greeting p {
+    margin: 20px;
+    font-size: 16px;
+  }
+  
+  .greeting #clienteNome {
+    color: #000;
+  }
+  
+  .greeting img.user-icon {
+    width: 28px;
+    height: 28px;
+    padding: 3px;
+    left: 8px;
+  }
+  
+  .greeting img.buy-icon {
+    width: 28px;
+    height: 28px;
+    padding: 3px;
+    left: 8px;
+  }
+  
+  .greeting i {
+    font-size: 24px;
+    color: #000;
+    left: 48px;
+  }
+
+
+
+
+  /* Media Queries */
+
+/* Para dispositivos móveis (telas pequenas) */
+@media (max-width: 768px) {
+  .greeting {
+      position: static;
+      justify-content: center;
+      top: 20px;
+      right: 0;
+      left: 0;
+      margin: 0;
+  }
+
+  .greeting p {
+      font-size: 14px;
+      margin: 10px;
+  }
+
+  .greeting #clienteNome {
+      font-size: 14px;
+  }
+
+  .greeting img.user-icon,
+  .greeting img.buy-icon {
+      width: 24px;
+      height: 24px;
+      padding: 2px;
+  }
+
+  .greeting i {
+      font-size: 20px;
+      left: 10px;
+  }
+}
+
+/* Para tablets (telas médias) */
+@media (max-width: 1024px) {
+  .greeting {
+      top: 50px;
+      right: 80px;
+  }
+
+  .greeting p {
+      font-size: 15px;
+  }
+
+  .greeting img.user-icon,
+  .greeting img.buy-icon {
+      width: 26px;
+      height: 26px;
+  }
+
+  .greeting i {
+      font-size: 22px;
+      left: 30px;
+  }
+}

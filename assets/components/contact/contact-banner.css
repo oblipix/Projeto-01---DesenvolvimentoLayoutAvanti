@@ -1,0 +1,35 @@
+.contact-section {
+    top: 4600px;
+    width: 1920px;
+    height: 660px;
+    background: url('/assets/images/4.png') no-repeat center/cover;
+    position: absolute;
+  }
+  
+  .contact-banner {
+    z-index: 100001;
+    width: 1920px;
+    height: 132px;
+    background: #005CFF;
+    position: relative;
+    top: 40%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .contact-text {
+    left: 15%;
+    top: 40px;
+    position: absolute;
+    font-family: Nunito, sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 140%;
+    letter-spacing: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+
