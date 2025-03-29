@@ -1,7 +1,7 @@
 
 # Projeto  Layout 
 
-![Página Exemplo](./assets/images/screenshot.png)
+
 
 Este projeto é uma página web com um layout responsivo, utilizando componentes carregados dinamicamente via JavaScript. Ele inclui um carrossel de imagens (Swiper), uma barra de busca, e várias seções carregadas via fetch, além de ter um cabeçalho personalizado com informações do cliente.
 
